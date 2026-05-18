@@ -1,0 +1,10 @@
+[project]
+name = "NTK-Gaussian-Process"
+version = "0.1.0"
+description = "Analytical computation of Neural Tangent Kernel Gaussian Process dynamics with closed-form evolution of mean and variance in the infinite-width regime."
+requires-python = ">=3.12"
+
+dependencies = [
+    "numpy==2.4.5",
+    "matplotlib==3.10.9",
+]
