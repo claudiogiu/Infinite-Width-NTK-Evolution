@@ -25,8 +25,8 @@ To set up the repository properly, follow these steps:
   - `dynamics/ntk_gp_dynamics.py`: Defines the NTK Gaussian Process dynamics, enabling closed‑form evolution of predictive means and uncertainties.
   - `kernels/nngp_relu.py`: Computes the corresponding NNGP kernel defining the initialization‑time covariance structure of the infinite‑width ReLU model. 
   - `kernels/ntk_relu.py`: Computes the analytic Neural Tangent Kernel for infinite‑width ReLU networks using arc‑cosine closed‑form expressions.
-  - `plotting/plot_dynamics.py`: Generates multi‑panel visualizations of NTK evolution across selected time values.
-  - `main.py`: Executes the NTK computation workflow, orchestrating kernel construction, dynamics evaluation, and saving the final figure in the `figures/` directory.
+  - `plotting/plot_dynamics.py`: Generates graphical visualizations of NTK evolution across selected time values.
+  - `main.py`: Executes the NTK computation process, orchestrating kernel construction, dynamics evaluation, and saving the resulting output in the `figures/` directory.
 
 - Run the following command to execute the full workflow:
 
