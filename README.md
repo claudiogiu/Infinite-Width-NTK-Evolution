@@ -2,9 +2,9 @@
 
 ## Introduction  
 
-This repository is designed for studying the evolution of infinite‑width neural networks under the training dynamics induced by the Neural Tangent Kernel (NTK). The implemented methodology corresponds to the infinite‑width linearization dynamics originally introduced by LEE J., XIAO L., SCHOENHOLZ S. S., BAHRI Y., NOVAK R., SOHL‑DICKSTEIN J., and PENNINGTON J. (2019) in their paper *“Wide Neural Networks of Any Depth Evolve as Linear Models Under Gradient Descent”* (Proceedings of the 33rd International Conference on Neural Information Processing Systems, DOI: [10.5555/3454287.3455056](https://dl.acm.org/doi/10.5555/3454287.3455056)).
+This repository is designed for investigating the evolution of infinite‑width neural networks under the training regime induced by the Neural Tangent Kernel (NTK). The implemented methodology corresponds to the infinite‑width linearization formalism originally introduced by LEE J., XIAO L., SCHOENHOLZ S. S., BAHRI Y., NOVAK R., SOHL‑DICKSTEIN J., and PENNINGTON J. (2019) in their paper *“Wide Neural Networks of Any Depth Evolve as Linear Models Under Gradient Descent”* (Proceedings of the 33rd International Conference on Neural Information Processing Systems, DOI: [10.5555/3454287.3455056](https://dl.acm.org/doi/10.5555/3454287.3455056)).
 
-An NTK provides a deterministic description of training dynamics in the infinite‑width limit, where parameter updates linearize around initialization and induce a fixed kernel governing function evolution. Under these conditions, predictive behavior evolves through kernel gradient flow, yielding closed‑form trajectories for the mean and variance of the induced function over time.
+An NTK provides a deterministic characterization of training behavior in the infinite‑width limit, where parameter updates linearize around initialization and induce a fixed kernel governing function evolution. Under these conditions, predictive response evolves through kernel gradient flow, yielding closed‑form trajectories for the mean and variance of the induced function over time.
 
 ## Getting Started
 
