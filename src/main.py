@@ -37,5 +37,6 @@ def main() -> None:
         dynamics=dynamics,
     )
 
+
 if __name__ == "__main__":
     main()
