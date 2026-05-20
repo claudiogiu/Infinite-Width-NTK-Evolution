@@ -2,7 +2,6 @@ import numpy as np
 from typing import Tuple
 from kernels.base_kernel import BaseKernel
 
-
 class NTKReLUKernel(BaseKernel):
     """
     Interface for computing the analytic Neural Tangent Kernel (NTK) of an
