@@ -4,7 +4,6 @@ from typing import List
 from plotting.base_plotter import BasePlotter
 from dynamics.base_dynamics import BaseDynamics
 
-
 class DynamicsPlotter(BasePlotter):
     """
     Interface for visualizing kernel-based function-space dynamics, providing
