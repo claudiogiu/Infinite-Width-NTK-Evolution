@@ -2,7 +2,6 @@ import numpy as np
 from typing import Callable, Tuple
 from dynamics.base_dynamics import BaseDynamics
 
-
 class NTKGaussianProcess(BaseDynamics):
     """
     Interface for simulating the infinite-width Neural Tangent Kernel (NTK)
