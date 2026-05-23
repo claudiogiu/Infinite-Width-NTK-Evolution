@@ -1,5 +1,5 @@
 [project]
-name = "NTK-Gaussian-Process"
+name = "Infinite-Width-NTK-Evolution"
 version = "0.1.0"
 description = "Analytical computation of Neural Tangent Kernel Gaussian Process dynamics with closed-form evolution of mean and variance in the infinite-width regime."
 requires-python = ">=3.12"
